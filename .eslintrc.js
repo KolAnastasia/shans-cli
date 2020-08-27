@@ -3,6 +3,7 @@ module.exports = {
       "no-mixed-spaces-and-tabs": 0, // disable rule
     },
     "parserOptions": {
-      "sourceType": "module"
+      "sourceType": "module",
+      "ecmaVersion": 2015
     }
 }
