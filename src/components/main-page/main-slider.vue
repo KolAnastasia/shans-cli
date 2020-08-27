@@ -3,8 +3,8 @@
     <slick ref="slick" :options="slickOptions" class="slider">
       <div class="main-slider-item">
         <picture>
-          <source media="(max-width: 768px)" srcset="./../assets/banner1-mob.jpg" />
-          <img srcset="./../assets/banner1.jpg" alt />
+          <source media="(max-width: 768px)" srcset="./../../assets/banner1-mob.jpg" />
+          <img srcset="./../../assets/banner1.jpg" alt />
         </picture>
 
         <div class="main-slider_content">
@@ -21,8 +21,8 @@
       </div>
       <div class="main-slider-item">
         <picture>
-          <source media="(max-width: 768px)" srcset="./../assets/banner1-mob.jpg" />
-          <img srcset="./../assets/banner1.jpg" alt />
+          <source media="(max-width: 768px)" srcset="./../../assets/banner1-mob.jpg" />
+          <img srcset="./../../assets/banner1.jpg" alt />
         </picture>
         <div class="main-slider_content">
           <h1>
@@ -38,8 +38,8 @@
       </div>
       <div class="main-slider-item">
         <picture>
-          <source media="(max-width: 768px)" srcset="./../assets/banner1-mob.jpg" />
-          <img srcset="./../assets/banner1.jpg" alt />
+          <source media="(max-width: 768px)" srcset="./../../assets/banner1-mob.jpg" />
+          <img srcset="./../../assets/banner1.jpg" alt />
         </picture>
         <div class="main-slider_content">
           <h1>
