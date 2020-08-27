@@ -54,6 +54,7 @@
         </div>
       </div>
     </slick>
+    
   </div>
 </template>
 
@@ -61,12 +62,12 @@
 
 import Vue from 'vue';
 import Slick from 'vue-slick';
-
-new Vue({
-    components: { Slick },
-    data() {
+export default {    
+  name: "mainSlider", 
+  components: { Slick },
+  data() {
             return {
-                    slickOptions: {
+                    
                         //options can be used from the plugin documentation
                      	slickOptions: {
 				slidesToShow: 1,
@@ -77,10 +78,9 @@ new Vue({
                 customPaging: function(slick) {
                     }
                 }
-                    }
+                    
                     }
     },
-    // All slick methods can be used too, example here
     methods: {
             next() {
                     this.$refs.slick.next()
@@ -93,13 +93,7 @@ new Vue({
                     this.$refs.slick.reSlick()
             }
     }
-});
-
-
-
-export default {    
-  name: "mainSlider"
-}
+  }
 
 </script>
 
