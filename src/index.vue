@@ -21,6 +21,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style src='slick-carousel/slick/slick.css'>
+    /* global styles */
 </style>
